@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Git branch diagram with main commits A through D, feature commits E through G, and a two-parent merge commit M">
+  <defs>
+    <marker id="arrowhead" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#8D98A5"/>
+    </marker>
+  </defs>
+  <g font-family="IBM Plex Mono, monospace">
+    <g font-size="22" font-weight="700">
+      <text x="20" y="64" fill="#EDB91E">main</text>
+      <text x="20" y="184" fill="#AEB7C2">feature</text>
+    </g>
+    <g fill="none" stroke="#8D98A5" stroke-width="3" stroke-linecap="round" marker-end="url(#arrowhead)">
+      <path d="M 228 55 H 322"/>
+      <path d="M 378 55 H 472"/>
+      <path d="M 528 55 H 622"/>
+      <path d="M 678 55 H 812"/>
+      <path d="M 350 78 C 362 112, 380 139, 400 151"/>
+      <path d="M 448 170 H 492"/>
+      <path d="M 548 170 H 592"/>
+      <path d="M 648 170 C 710 168, 762 135, 815 78"/>
+    </g>
+    <g fill="#EDB91E">
+      <circle cx="200" cy="55" r="28"/>
+      <circle cx="350" cy="55" r="28"/>
+      <circle cx="500" cy="55" r="28"/>
+      <circle cx="650" cy="55" r="28"/>
+      <circle cx="840" cy="55" r="28"/>
+    </g>
+    <g fill="#30363D">
+      <circle cx="420" cy="170" r="28"/>
+      <circle cx="520" cy="170" r="28"/>
+      <circle cx="620" cy="170" r="28"/>
+    </g>
+    <g font-size="22" font-weight="700" text-anchor="middle" fill="#F4F3EE">
+      <text x="200" y="63">A</text>
+      <text x="350" y="63">B</text>
+      <text x="500" y="63">C</text>
+      <text x="650" y="63">D</text>
+      <text x="840" y="63">M</text>
+      <text x="420" y="178">E</text>
+      <text x="520" y="178">F</text>
+      <text x="620" y="178">G</text>
+    </g>
+    <g font-size="15" text-anchor="middle" fill="#AEB7C2">
+      <text x="840" y="112">merge</text>
+      <text x="520" y="220">feature work</text>
+    </g>
+  </g>
+</svg>
